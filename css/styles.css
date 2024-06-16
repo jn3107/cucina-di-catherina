@@ -1,5 +1,9 @@
 :root {
   --color-text: #f3f3f3;
+  --color-btn: rgba(188, 26, 26, 0.2);
+  --color-clik: rgba(188, 26, 26, 0.5);
+  --color-accent: rgba(188, 26, 26, 0.71);
+  --background-color: #100f0f;
 }
 
 body {
@@ -53,7 +57,7 @@ body {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: rgba(188, 26, 26, 0.5);
+  color: var(--color-clik);
 }
 
 .header-contact-link {
@@ -64,7 +68,7 @@ body {
 
 .header-contact-link:hover,
 .header-contact-link:focus {
-  color: rgba(188, 26, 26, 0.5);
+  color: var(--color-clik);
 }
 
 /*!-------------------- HERO --------------------*/
@@ -92,14 +96,14 @@ body {
 
 span {
   font-weight: 900;
-  color: rgba(188, 26, 26, 0.71);
+  color: var(--color-accent);
 }
 
 .hero-btn {
   font-weight: 500;
   font-size: 30px;
   color: var(--color-text);
-  background-color: rgba(188, 26, 26, 0.2);
+  background-color: var(--color-btn);
   cursor: pointer;
 }
 
@@ -118,7 +122,7 @@ span {
 /*!-------------------- STORE --------------------*/
 
 .store {
-  background-color: #100f0f;
+  background-color: var(--background-color);
 }
 
 .store-title {
@@ -137,14 +141,14 @@ span {
   font-weight: 400;
   font-size: 20px;
   color: var(--color-text);
-  background-color: rgba(188, 26, 26, 0.2);
+  background-color: var(--color-btn);
   cursor: pointer;
 }
 
 /*!-------------------- RECIPES --------------------*/
 
 .recipes {
-  background-color: #100f0f;
+  background-color: var(--background-color);
 }
 
 .recipes-title {
@@ -156,13 +160,13 @@ span {
 /*!-------------------- GALLERY --------------------*/
 
 .gallery {
-  background-color: #100f0f;
+  background-color: var(--background-color);
 }
 
 /*!-------------------- FOOTER --------------------*/
 
 .footer {
-  background-color: #100f0f;
+  background-color: var(--background-color);
 }
 
 .footer-logo {
