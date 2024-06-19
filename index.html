@@ -10,107 +10,125 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link">
-          <img src="./images/logo-icon.svg" alt="logo icon" />CUCINA
-        </a>
-        <ul class="header-menu list">
-          <li class="header-menu-item">
-            <a href="./index.html" class="header-menu-link link">Home</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#store" class="header-menu-link link">Store</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#recipes" class="header-menu-link link">Recipes</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="#gallery" class="header-menu-link link">Gallery</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="#contact" class="header-contact-link link">Contact us</a>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link">
+            <img src="./images/logo-icon.svg" alt="logo icon" />CUCINA
+          </a>
+          <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-menu-link link">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#store" class="header-menu-link link">Store</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#recipes" class="header-menu-link link">Recipes</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#gallery" class="header-menu-link link">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#contact" class="header-contact-link link">Contact us</a>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Cucina di Catherina</h1>
-        <p class="hero-text">We know, you will <span>love</span> our product</p>
-        <button type="button" class="hero-btn">Buy now</button>
-        <ul class="hero-menu list">
-          <li class="hero-menu-item">
-            <p class="hero-menu-text">14 different tastes</p>
-          </li>
-          <li class="hero-menu-item">
-            <p class="hero-menu-text">31 factories around the world</p>
-          </li>
-        </ul>
-        <ul class="hero-list list">
-          <li class="hero-list-item">
-            <p class="hero-list-text">Italy tomatoes</p>
-          </li>
-          <li class="hero-list-item">
-            <p class="hero-list-text">Fresh garlic</p>
-          </li>
-          <li class="hero-list-item">
-            <p class="hero-list-text">White wine</p>
-          </li>
-          <li class="hero-list-item">
-            <p class="hero-list-text">Fresh basil</p>
-          </li>
-        </ul>
-        <img
-          src="./images/ketchup.png"
-          alt="ketchup"
-          width="305"
-          height="535"
-          class="hero-img"
-        />
-        <ul class="hero-socials list">
-          <li class="hero-socials-item">
-            <a
-              href=""
-              aria-label="tumblr"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-socials-link link"
-              >Tumblr</a
-            >
-          </li>
-          <li class="hero-socials-item">
-            <a
-              href=""
-              aria-label="instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-socials-link link"
-              >Instagram</a
-            >
-          </li>
-          <li class="hero-socials-item">
-            <a
-              href=""
-              aria-label="youtube"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-socials-link link"
-              >Youtube</a
-            >
-          </li>
-          <li class="hero-socials-item">
-            <a
-              href=""
-              aria-label="twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-socials-link link"
-              >Twitter</a
-            >
-          </li>
-        </ul>
+        <div class="container hero-container">
+          <div class="title-text-btn-menu">
+            <h1 class="hero-title">Cucina di Catherina</h1>
+            <p class="hero-text">
+              We know,<br />
+              you will <span>love</span> our product
+            </p>
+            <button type="button" class="hero-btn">Buy now</button>
+            <ul class="hero-menu list">
+              <li class="hero-menu-item">
+                <p class="hero-menu-text"><span>14</span> different tastes</p>
+              </li>
+              <li class="hero-menu-item">
+                <p class="hero-menu-text"><span>31</span> factories around the world</p>
+              </li>
+            </ul>
+          </div>
+          <div class="list-img-socials">
+            <ul class="hero-list list">
+              <li class="hero-list-item">
+                <p class="hero-list-text">Italy tomatoes</p>
+              </li>
+              <li class="hero-list-item">
+                <p class="hero-list-text">Fresh garlic</p>
+              </li>
+              <li class="hero-list-item">
+                <p class="hero-list-text">White wine</p>
+              </li>
+              <li class="hero-list-item">
+                <p class="hero-list-text">Fresh basil</p>
+              </li>
+            </ul>
+            <img
+              src="./images/ketchup.png"
+              alt="ketchup"
+              width="305"
+              height="535"
+              class="hero-img"
+            />
+            <ul class="hero-socials list">
+              <li class="hero-socials-item">
+                <a
+                  href=""
+                  aria-label="tumblr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hero-socials-link link"
+                  >Tumblr</a
+                >
+              </li>
+              <li class="hero-socials-item">
+                <a
+                  href=""
+                  aria-label="instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hero-socials-link link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="hero-socials-item">
+                <a
+                  href=""
+                  aria-label="youtube"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hero-socials-link link"
+                  >Youtube</a
+                >
+              </li>
+              <li class="hero-socials-item">
+                <a
+                  href=""
+                  aria-label="twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hero-socials-link link"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="store" class="store">
