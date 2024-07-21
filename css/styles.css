@@ -67,12 +67,13 @@ body {
 /*!-------------------- HEADER --------------------*/
 
 .header {
-  background: linear-gradient(
+  /* background: linear-gradient(
     298deg,
     rgba(111, 102, 102, 0.9) 0%,
     rgba(16, 15, 15, 0.9) 100%,
     rgba(16, 15, 15, 0.9) 100%
-  );
+  ); */
+  background-color: var(--background-color);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -91,8 +92,8 @@ body {
 }
 
 .header-logo {
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   color: var(--color-text);
   display: flex;
   align-items: center;
@@ -105,8 +106,8 @@ body {
 }
 
 .header-menu-link {
-  font-weight: 600;
   font-size: 16px;
+  font-weight: 600;
   color: var(--color-text);
 }
 
@@ -119,8 +120,8 @@ body {
   border: 1px solid #f3f3f3;
   border-radius: 16px;
   padding: 10px 33px 10px 34px;
-  font-weight: 800;
   font-size: 16px;
+  font-weight: 800;
   color: var(--color-text);
 }
 
@@ -132,13 +133,13 @@ body {
 /*!-------------------- HERO --------------------*/
 
 .hero {
-  background: linear-gradient(
+  /* background: linear-gradient(
     200deg,
     rgba(111, 102, 102, 0.9) 0%,
     rgba(16, 15, 15, 0.9) 88.73%,
     rgba(16, 15, 15, 0.9) 99.98%
-  );
-
+  ); */
+  background-color: var(--background-color);
   padding-top: 72px;
   padding-bottom: 71px;
 }
@@ -148,8 +149,8 @@ body {
 }
 
 .hero-title {
-  font-weight: 500;
   font-size: 64px;
+  font-weight: 500;
   color: var(--color-text);
   max-width: 388px;
   text-transform: uppercase;
@@ -157,8 +158,8 @@ body {
 }
 
 .hero-text {
-  font-weight: 300;
   font-size: 36px;
+  font-weight: 300;
   color: var(--color-text);
   margin-bottom: 48px;
 }
@@ -172,8 +173,8 @@ span {
   border-radius: 16px;
   padding: 26px 116px;
   padding: 20px 84px 20px 84px;
-  font-weight: 500;
   font-size: 30px;
+  font-weight: 500;
   color: var(--color-text);
   background-color: var(--color-btn);
   cursor: pointer;
@@ -190,15 +191,15 @@ span {
 }
 
 .hero-menu-text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--color-text);
 }
 
 .hero-menu-text span {
   font-family: var(--font-family);
-  font-weight: 600;
   font-size: 32px;
+  font-weight: 600;
   color: var(--color-text);
 }
 
@@ -207,9 +208,14 @@ span {
 }
 
 .hero-list-text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--color-text);
+}
+
+.hero-socials-link:hover,
+.hero-socials-link:focus {
+  color: var(--color-clik);
 }
 
 /*!-------------------- STORE --------------------*/
@@ -219,20 +225,20 @@ span {
 }
 
 .store-title {
-  font-weight: 600;
   font-size: 32px;
+  font-weight: 600;
   color: var(--color-text);
 }
 
 .store-text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--color-text);
 }
 
 .store-btn {
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   color: var(--color-text);
   background-color: var(--color-btn);
   cursor: pointer;
@@ -245,8 +251,8 @@ span {
 }
 
 .recipes-title {
-  font-weight: 400;
   font-size: 32px;
+  font-weight: 400;
   color: var(--color-text);
 }
 
@@ -263,17 +269,23 @@ span {
 }
 
 .footer-logo {
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   color: var(--color-text);
 }
 
 .footer-menu-link {
   font-family: "Inter";
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--color-text);
 }
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--color-clik);
+}
+
 .footer-address {
   font-style: normal;
 }
@@ -283,7 +295,17 @@ span {
 }
 .footer-address-link {
   font-family: "Inter";
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--color-text);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--color-clik);
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  color: var(--color-clik);
 }
